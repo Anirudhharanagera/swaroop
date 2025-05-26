@@ -1,5 +1,5 @@
 import streamlit as st
-from model import train_mode
+from model import train_model
 from utils import load_and_preprocess_data
 
 st.title("🧠 Market Segmentation using KMeans Clustering")
